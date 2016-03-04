@@ -39,16 +39,22 @@ tags: []
 1）php.ini  open_basedir = /home/wwwroot/
 2）ini_set   注意：PHP >5.2.3+ PHP_INI_ALL ，不建议使用，这么设置太随意了。 
 3）apache 的 httpd.conf 中Directory配置 
+
 ```
 "php_admin_value open_basedir none" #关闭 
 php_admin_value open_basedir "/home/wwwroot/:/tmp/:/var/tmp/:/proc/"
 ```
+
 httpd.conf中VirtualHost 
+
 ```
 php_admin_value open_basedir "/home/wwwroot/:/tmp/:/var/tmp/:/proc/"
 ```
 4）nginx fastcgi.conf   
-    ```fastcgi_param  PHP_VALUE  "open_basedir=$document_root:/tmp/"; ```
+
+```
+fastcgi_param  PHP_VALUE  "open_basedir=$document_root:/tmp/"; 
+```
             
 5）.user.ini 文件
     设置方法同 1 .
