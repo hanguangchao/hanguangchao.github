@@ -1,4 +1,11 @@
-
+---
+layout: post
+date: 2016-03-24 12:06
+title : "更新缓存的几个方式"
+category: cache
+tags: []
+---
+{% include JB/setup %}
 
 #更新缓存的几个方式
 
