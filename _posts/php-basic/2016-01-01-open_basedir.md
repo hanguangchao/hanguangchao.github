@@ -2,10 +2,9 @@
 layout: post
 title: "PHP选项 open_basedir"
 date: 2016-01-01 16:03
-category: php
-tags: [php]
+category: php-basic
+tags: []
 ---
-
 {% include JB/setup %}
 
 #PHP文件包含目录 open_basedir

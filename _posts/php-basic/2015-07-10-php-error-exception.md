@@ -2,10 +2,9 @@
 layout: post
 title: "PHP错误和异常"
 date: 2015-07-10 16:03
-category: php
-tags: [php]
+category: php-basic
+tags: [php-error]
 ---
-
 {% include JB/setup %}
 
 #PHP错误和异常
