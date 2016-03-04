@@ -3,13 +3,12 @@
 permalink: /:categories/:year/:month/:day/:title 
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
-highlighter: rouge
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : 忽然之间的技术博客
-tagline: Site Tagline
+title : "忽然之间的技术博客"
+tagline: "Site Tagline"
 author :
   name : codefine
   email : hanguangchao@gmail.com
