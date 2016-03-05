@@ -7,7 +7,7 @@ tags: []
 ---
 {% include JB/setup %}
 
-# 更新缓存的几个方式
+#更新缓存的几个方式
 
 > 总结最长用到的几个缓存方法， 使用伪代码来说明一下。 
 
@@ -63,7 +63,7 @@ update_at = time();
 update_at = cache::get('news_list_update');    //缓存依赖这个条件。
 key = 'news_list';
 
-if (false === (result = cache::get(key)) || (update_at && result['update_at'] < update_at) ) {
+if (false === (result = cache::get(key)) || (update_at && (result['update_at'] < update_at))) {
     //方法1 或方法2 更新缓存
     // result
     result = db::getlist();    //最新的ID
