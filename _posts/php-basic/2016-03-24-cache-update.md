@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2016-03-24 12:06
 title: "更新缓存的几个方式"
+date: 2016-03-24 12:06
 category: php-basic
 tags: []
 ---
